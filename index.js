@@ -8,7 +8,6 @@ const mentorRoute = require("./Routes/mentor");
 const assignMentortoStudent = require("./Routes/assignMentortoStudent");
 
 const app = express();
-
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
